@@ -11,12 +11,14 @@
         android:id="@+id/button"
         android:layout_width="205dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="73dp"
         android:background="@drawable/button_round"
         android:onClick="startJourney"
         android:textSize="24sp"
         android:visibility="visible"
-        tools:layout_editor_absoluteX="90dp"
-        tools:layout_editor_absoluteY="55dp"
-        tools:text="Start Journey" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Let's GO" />
 
 </android.support.constraint.ConstraintLayout>

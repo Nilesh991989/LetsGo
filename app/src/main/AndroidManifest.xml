@@ -28,7 +28,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".AddPlace_Activity" />
-        <activity android:name=".JourneySummary_Activity"></activity>
+        <activity android:name=".JourneySummary_Activity" />
+        <activity android:name=".JourneyHeader_Activity"></activity>
     </application>
 
 </manifest>
