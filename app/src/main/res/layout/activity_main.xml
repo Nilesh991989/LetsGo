@@ -4,16 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/index"
     tools:context=".MainActivity">
 
     <Button
         android:id="@+id/button"
         android:layout_width="205dp"
         android:layout_height="wrap_content"
+        android:background="@drawable/button_round"
         android:onClick="startJourney"
-        android:text="Start Journy"
+        android:textSize="24sp"
         android:visibility="visible"
-        tools:layout_editor_absoluteX="72dp"
-        tools:layout_editor_absoluteY="102dp" />
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="55dp"
+        tools:text="Start Journey" />
 
 </android.support.constraint.ConstraintLayout>

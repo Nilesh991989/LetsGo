@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void startJourney(View view){
         Button button = findViewById(view.getId());
-        Intent i = new Intent(getApplicationContext(),AddPlace_Activity.class).putExtra("value",button.getText());
+        Intent i = new Intent(getApplicationContext(),AddPlace_Activity.class);
         startActivity(i);
     }
 }
